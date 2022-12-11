@@ -1,12 +1,803 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    Hello!
+<html>
+	<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>F1赛车</title>
+	<link href="index.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body>
+
+	<style type="text/css">
+	body {
+	  margin-top:0 !important;
+	  padding-top:0 !important;
+	
+	}
+	</style>
+	
+	<div id="container">
+	<div id="page">
+	
+<!--header-->
+
+	<div id="header">
+		<table width="100%" cellspacing="0" cellpadding="0" border="0" height="76">
+			<tbody><tr>
+				<td align="right" valign="center">
+				</td>
+			</tr></tbody>
+		</table>
+	</div>		
+
+<!--nav-->
+
+	<style>
+	#menu{width:980px; margin:0; padding:0; height:26px; background:url() repeat-x;font-size:14px;}
+	#menu_left{float:left;width:750px;}
+	.nav{margin:0 0 0 10px;}
+	#nav_left{float:left;width:470px;}
+	#nav_right{float:right;width:270px;text-align:right;}
+	#menu_right{float:right;width:210px;background:url() repeat-x;}
+	ul.top{margin:0;padding:0;list-style:none;height:26px;}
+	ul.top li{float:left;}
+	ul.top li a{color:#fff;text-decoration:none;padding:0 12px;line-height:26px;display:inline-block;}
+	ul.top li a:hover{color:#fff;background:url() repeat-x;text-decoration:none;}
+	ul.top li ul{display: none;}
+	ul.top li:hover ul{ background:#000;color:#fff;display:block; z-index:99; position:absolute;top:105px;left:920px; width:140px; list-style:none;}
+	ul.top li:hover ul li{color:#fff;display:block;width:180px;height:26px; background:#fff;font-size:12px;}
+	ul.top li:hover ul li a{color:#000;height:26px;background:#fff;}
+	ul.top li:hover ul li a:hover{color:#fff;background:#333333;width:135px;height:26px;list-style:none;}
+	ul.top li a:link, ul.top li a:visited{color:#fff;text-decoration:none;}
+	ul.top li a:active{color:#fff;text-decoration:none;}
+	#clear{clear:both;}
+	#submenu{background:url() repeat-x #DEDEDE;font-size:12px;width:980px;margin:0;padding:0;height:21px;border:1px #bbb solid;border-width:0 0 1px 0;}
+	ul.subnav{list-style:none;float:right;margin:0 170px 0 0;_margin:0 90px 0 0;}
+	ul.subnav li{float:left;}
+	ul.subnav li a{color:#000;text-decoration:none;padding:0 15px;line-height:21px;display:inline-block;}
+	ul.subnav li a:hover, a.hui{background:url() repeat-x #ccc;color:#000;text-decoration:none;padding:0 15px;line-height:21px;display:inline-block;}
+	
+	</style>
+	<div id="menu">
+	<div id="menu_left">
+	<div class="nav">
+	<div id="nav_left">
+	
+	<ul class="top">
+	<li><a href="#" target="_top">首页</a></li>
+	<li><a href="#" target="_top">流言</a></li>
+	<li><a href="#" target="_top">专栏</a></li>
+	<li><a href="#" target="_top">直播</a></li>
+	<li><a href="#" target="_top">图片</a></li>
+	<li><a href="#" target="_top">视频</a></li>
+	<li><a href="#" target="_top">论坛</a></li>
+	<li><a href="#" target="_top">勒芒</a></li>
+	
+	</ul>
+	
+	</div>
+	<div id="nav_right">
+	<ul class="top">
+	<li><a href="#" target="_top")">大奖赛百科</a></li>
+	<li><a href="#" target="_top">F1试车</a></li>
+	<li><a href="#" target="_top">赛程与积分</a></li>
+	
+	</ul>
+	</div>
+	<div id="clear"></div>
+	</div>
+	</div>
+	
+	<div id="menu_right">
+	<ul class="top">
+	<li><a href="#" target="_top">商城</a>
+	
+	<ul>
+	<li><a href="#" class="nav">卡路里正品商城</a></li>
+	<li><a href="#" class="nav">装备区</a></li>
+	<li><a href="#" class="nav">球衣区</a></li>
+	<li><a href="#" class="nav">运动装备交易</a></li>
+	<li><a href="#" class="nav">潮物小玩</a></li>
+	</ul>
+	
+	</li>
+	<li><a href="#" target="_top">彩票</a></li>
+	<li><a href="#" target="_top">足球</a></li>
+	<li><a href="#" target="_top">NBA</a></li>
+	</ul>
+	</div>
+	<div id="clear"></div>
+	</div>
+
+<!--banner-->
+
+	<table width="100%" cellspacing="0" cellpadding="0" border="0">
+		<tbody>
+			<tr>
+				<td align="right" valign="center"></td>
+			</tr>
+		</tbody>
+	</table>		
+		
+<!--页面主体-->
+
+	<div id="main">
+
+<!--页面左侧-->
+
+	<div id="content" class="left">
+	<div id="left_content" class="left">
+						
+<!--滚动图-->
+
+	<div id="roll" class="inbox">
+	<script language="javascript" type="text/javascript" src="img.js"></script>
+	<div id="imgADPlayer" style="display: block; width: 422px; height: 232px; position: relative; overflow: hidden; padding-top: 1px; padding-left: 1px;">
+		<a href="#" title="F1上海站版《元首的愤怒》" target="_blank" style="display: block; text-decoration: none; width: 422px; height: 232px; background: url(&quot;) center center no-repeat;"></a>
+		<ul style="margin:0;width:422px;position:absolute;z-index:999;right:0px;FILTER:Alpha(Opacity=30,FinishOpacity=90, Style=1);overflow: hidden;bottom:-1px;height:16px; border-right:1px solid #fff;">
+			<li style="margin:0;list-style-type: none; margin:0;padding:0; float:right;">
+				<span onmouseover="PImgPlayer.mouseOver(this);" onmouseout="PImgPlayer.mouseOut(this);" style="clear:both; display:block; width:23px;line-height:18px; font-size:12px; FONT-FAMILY:'宋体'; opacity: 0.6;border:1px solid #fff;border-right:0;border-bottom:0;color:#fff;text-align:center; cursor:pointer; background:#000;" onclick="PImgPlayer.play(1);return false;" herf="javascript:;" title="生日快乐，菲利佩">2</span>
+			</li>
+			<li style="margin:0;list-style-type: none; margin:0;padding:0; float:right;"><span onmouseover="PImgPlayer.mouseOver(this);" onmouseout="PImgPlayer.mouseOut(this);" style="clear:both; display:block; width:23px;line-height:18px; font-size:12px; FONT-FAMILY:'宋体'; opacity: 0.6;border:1px solid #fff;border-right:0;border-bottom:0;color:#fff;text-align:center; cursor:pointer; background:#ff0000;" onclick="PImgPlayer.play(0);return false;" herf="javascript:;" title="F1上海站版《元首的愤怒》">1</span>
+			</li>
+		</ul>
+	</div>
+		<script>
+			PImgPlayer.addItem( "F1上海站版《元首的愤怒》", "#", "ad1.webp");
+			PImgPlayer.addItem( "生日快乐，菲利佩", "#", "ad2.webp");
+			PImgPlayer.init( "imgADPlayer", 422, 232 );
+		</script>
+	</div>
+
+<!--新闻-->
+
+	<div class="inbox">
+		<div style="font-size:16px;font-weight:bold;text-indent:35px;margin-top:10px;margin-bottom:10px;">
+			<a href="#" target="_blank" class="font_orange">F1上海站版《元首的愤怒》</a>
+		</div>
+
+		<div style="text-indent:25px;font-size:13px;padding-left:10px;padding-right:5px;">
+			<a href="#" target="_blank" style="color:#000000;">这是根据被无数题材恶搞无数次的《帝国的毁灭》电影片段制作的恶搞小短片,这次的受害者是红牛。是的，克里斯蒂安霍纳，你中奖了，就在2011年的上海GP</a>
+		 	| 
+			<a href="#" target="_blank" class="font_orange">生日快乐，菲利佩</a>
+		</div>
+
+		<div style="padding-left:15px;padding-right:5px;margin-top: 5px;">
+			·<a href="#" target="_blank" class="font_orange">迈凯伦：刘易斯不会走</a>&nbsp;|&nbsp;
+			<a href="#" target="_blank" class="font_orange">拐点：保时捷GT1</a>&nbsp;|&nbsp;
+			<a href="#" target="_blank" class="font_orange">十年：当米卡遇到迈克尔</a><br>
+	
+			·<img src="play.gif"><a href="#" target="_blank" class="font_orange">BBC中国站集锦</a>&nbsp;|&nbsp;
+			<img src="play.gif"><a href="#" target="_blank" class="font_orange">上海赛后新闻发布会</a>&nbsp;|&nbsp;
+			<img src="play.gif"><a href="#" target="_blank" class="font_orange">巴顿占了维特尔的坑</a>
+		</div>
+	</div>
+						
+	<div style="height:10px;"></div>					
+	
+<!--HelloF1制造-->
+	
+	<div class="left_title font_white font_b"><span class="padleft_25"><a href="#">HelloF1制造</a></span></div>					
+						
+	<div class="inbox boxoffline" style="margin-left: 10px;">
+		<div class="top1"></div>
+		<a href="#" class="left"><img src="a8121fd23a908541fe8240d809787ec1.jpg"></a>
+		<div class="padleft_10 left left_text">
+		<a href="#" class="font_orange font_b" style="text-indent:25px;">汉密尔顿是如何获胜的？</a>
+		<p><a href="#">刘易斯说中国大奖赛是他最伟大的大奖赛胜利之考虑到发车前的问题，糟糕的第一次进站，以及他的超越————确实如此。亚当-库珀将分析他是如何做到的</a></p>
+		</div>
+		<div class="clean"></div>
+		<div class="top1"></div>
+	</div>
+	
+	<div class="inbox boxoffline" style="margin-left: 10px;">
+		<div class="top1"></div>
+		<a href="#" class="left"><img src="d36421dd5426e02cc6f3234b11d9c581.jpg" border="0"></a>
+		<div class="padleft_10 left left_text">
+		<a href="#" class="font_orange font_b" style="text-indent:25px;">Top 10胜率最高的F1车队</a>
+		<p><a href="#">迈凯轮，法拉利和威廉姆斯都有着辉煌的传奇，但比起参赛获胜率，还有2支车队排在他们前头，并且遥遥领先，这里我们将看看谁才是“效率最高”的成功车队</a></p>
+		</div>
+		<div class="clean"></div>
+		<div class="top1"></div>
+	</div>
+	
+	<div class="inbox boxoffline" style="margin-left: 10px;">
+		<div class="top1"></div>
+		<a href="#" class="left"><img src="d86da6db47e70146ae98352f99aaaa86.jpg" border="0"></a>
+		<div class="padleft_10 left left_text">
+		<a href="#" class="font_orange font_b" style="text-indent:25px;">F1的那些人，那些事</a>
+		<p><a href="#">F1是一项多么令人激动的运动，但是在赛车本身背后的那些人那些事才更是谈资，托尼-道金斯将给我们谈谈围场里爆发户的故......</a></p>
+		</div>
+		<div class="clean"></div>
+		<div class="top1"></div>
+	</div>
+	
+	<div class="inbox boxoffline" style="margin-left: 10px;">
+		<div class="top1"></div>
+		<a href="#" class="left"><img src="4a53acb319ceb03e6c0549e5c0938178.jpg" border="0"></a>
+		<div class="padleft_10 left left_text">
+		<a href="#" class="font_orange font_b" style="text-indent:25px;">德克萨斯行：美国赛道工地探班</a>
+		<p><a href="#">奥斯汀，德克萨斯首府，2012年将成为大奖赛赛道，将把美国带回F1地图内。汤姆-奥克菲到西部- -游以了解大奖赛最新赛道的进展，还有那些他的所见所闻</a></p>
+		</div>
+		<div class="clean"></div>
+		<div class="top1"></div>
+	</div>					  
+						
+	<div class="left_title font_white font_b"><span class="padleft_25"><a href="#">极品飞车</a></span></div>
+	<div class="inbox boxoffline" style="margin-left: 10px;">
+	<table class="f1" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr>
+		<td width="80" height="90" align="center"><a href="#" target="_blank"></a><br>
+		<div style="margin-top:3px;"><a href="#" target="_blank">f1boy</a></div>
+	</td>
+	<td>
+		<div class="padleft_10 left left_text"><a href="#" target="_blank" class="font_orange font_b" style="text-indent: 25px;"> 没耐力的轮胎，精彩的比赛</a><br>
+		<p><a href="#" target="_blank">顿哥、顿弟发车时对vettel的超越，让 2011年的上海站注定将会是一场精彩的比赛。虽然在1停后，vettel完成了对“两顿”的超越，...</a></p>
+		</div>
+	</td>
+	</tr>
+	</tbody></table>
+	</div>
+
+	<div class="inbox boxoffline" style="margin-left: 10px;">
+		<table class="f1" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tbody><tr>
+		<td width="80" height="90" align="center"><a href="#" target="_blank"><img border="1" src="default_small.jpg"></a><br>
+			<div style="margin-top:3px;">
+				<a href="#" target="_blank">fire0003</a>
+			</div>
+		</td>
+		<td>
+			<div class="padleft_10 left left_text"><a href="#" target="_blank" class="font_orange font_b" style="text-indent: 25px;"> 谏法家逐客书</a><br>
+	  		<p><a href="#" target="_blank">谏法家逐客书 今观《发车表》《惠帅讽霍公美鼻》心甚喜之。权作一文，愿附骥尾，博人一粲。吾闻法家欲意化议逐客，窃以为过矣...</a></p>
+			</div>
+		</td>
+	</tr>
+	</tbody></table>
+	</div>
+	
+	<div class="left_title font_white font_b"><span class="padleft_25"><a href="#">车友交流</a></span></div>					
+						
+	<div class="inbox boxoffline" style="margin-left: 10px;">
+		<div class="top1"></div>
+		<a href="#" class="left"><img src="e657354ffa46f69f5cc110cf88eda3cd.jpg" border="0" width="124" height="100"></a>
+		<div class="padleft_10 left left_text">
+		<a href="#" class="font_orange font_b" style="text-indent:25px;">2010北京车博会实拍！</a>
+		<p><a href="#">今年的汽车博览会改在了奥林匹克公园的国家会议中心，可远不如去年在北展的规模，50块门票花的是真够冤的，统共就一个大厅，走一圈连10分钟都不到</a></p> · 
+		<a class="font_orange" href="#" target="_blank">奥迪中美两国售价对比</a> · 
+		<a class="font_orange" href="#" target="_blank">视频：Top Gear15季06</a>
+		</div>
+		<div class="clean"></div>
+		<div class="top1"></div>
+	</div>
+						
+	</div>
+	<div id="mid_content" class="left">
+					
+<!--新闻-->
+					  
+	<div class="inbox">
+		<div class="mid_title font_white font_b"><span class="padleft_25"><a href="#">F1新闻与流言</a></span></div>
+		<div class="top1"></div>
+	<table width="255" border="0" align="center" cellpadding="1" cellspacing="0" class="f1"><tbody>
+		<tr><td><strong><a href="#" target="_blank" style="color:#660000;">布耶米对未来很淡定</a></strong></td></tr><tr><td style="padding-bottom:10px;text-indent:0.6cm">塞巴斯蒂安·布耶米表示并不担心自己今年在小红牛的地位。</td></tr>
+		<tr><td><strong><a href="#" target="_blank" style="color:#660000;">莲花望升级带来积分</a></strong></td></tr><tr><td style="padding-bottom:10px;text-indent:0.6cm">莲花车队技术总监迈克·加斯科因认为，车队为西班牙站准备的大升级可以帮助车..</td></tr>
+		<tr><td><strong><a href="#" target="_blank" style="color:#660000;">瓦特尔：人员稳定是续约关键</a></strong></td></tr><tr><td style="padding-bottom:10px;text-indent:0.6cm">塞巴斯蒂安·瓦特尔表示，在自己决定明年是否与红牛续约时，车队一定会留住像..</td></tr>
+		<tr><td><strong><a href="#" target="_blank" style="color:#660000;">印度大奖赛赛道正式命名</a></strong></td></tr><tr><td style="padding-bottom:10px;text-indent:0.6cm">即将在今年上演F1处子秀的印度大奖赛赛道正式命名为Buddh国际赛道..</td></tr>
+		<tr><td><strong><a href="#" target="_blank" style="color:#660000;">威廉姆斯目标赛季第一分</a></strong></td></tr><tr><td style="padding-bottom:10px;text-indent:0.6cm">威廉姆斯车队总监萨姆·迈克尔相信土耳其大奖赛的升级将让车队重返Top10,在经..</td></tr>
+		<tr><td><strong><a href="#" target="_blank" style="color:#660000;">法拉利：未来几周很重要</a></strong></td></tr><tr><td style="padding-bottom:10px;text-indent:0.6cm">法拉利总裁卢卡·迪·蒙特泽莫罗认为未来几周对于法拉利的总冠军争夺战异常重要..</td></tr>
+		<tr><td align="center"><a href="#" style="color:#1D6800">查看更多F1新闻流言</a> | 
+			<script>
+				function addFavorite2() {
+					  var url = window.location;
+					 var title = document.title;
+					var ua = navigator.userAgent.toLowerCase();
+					  if (ua.indexOf("360se") > -1) {
+						  alert("由于浏览器功能限制，请按 Ctrl+D 手动收藏！");
+					  }
+					  else if (ua.indexOf("msie 8") > -1) {
+						  window.external.AddToFavoritesBar(url, title);
+					}
+					else if (document.all) {
+						   try{
+							window.external.addFavorite(url, title);
+						   }
+						catch(e){
+							alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');
+						   }
+					   }
+					   else if (window.sidebar) {
+						   window.sidebar.addPanel(title, url, "");
+					   }
+					   else {
+						 alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');
+					 }
+				}
+			</script>		
+			<a href=# rel="sidebar" onclick="javascript:addFavorite2()">加入收藏夹</a> 
+		</td></tr>
+	</tbody></table>
+	</div>
+					   				   					
+<!--视频-->
+
+	<div class="inbox">
+		<div class="mid_title font_white font_b"><span class="padleft_25"><a href="#" target="_blank">F1视频</a></span></div>
+		<table border="0" cellspacing="0" cellpadding="0" class="font_orange" style="padding-left:10px"><tbody>
+		<tr>
+		<td><a href="#" target="_blank"><img src="5391.jpg" title="德语电台ServusTV全程记录Vettel夺冠后的行程" alt="德语电台ServusTV全程记录Vettel夺冠后的行程" border="0" width="110"></a><br><a href="#" target="_blank">德语电台ServusTV全程记录Vettel夺冠后的行程</a></td>
+		<td><a href="#" target="_blank"><img src="5390.jpg" title="米卡、舒马赫、足球皇帝奔驰广告(德语版)" alt="F1技术解析K=KERS动能回收系统" border="0" width="110"></a><br><a href="#" target="_blank">F1技术解析K=KERS动能回收系统</a></td>
+		</tr>
+		
+		<tr>
+			<td><a href="#" target="_blank"><img src="5389.jpg" title="揭秘迈凯轮Misson Control中心" alt="揭秘迈凯轮Misson Control中心" border="0" width="110"></a><br><a href="#" target="_blank">揭秘迈凯轮Misson Control中心</a></td>
+			<td><a href="#" target="_blank"><img src="5201.jpg" title="Schumi-Vettel Interview舒马赫与瓦特尔接受采访第二部分" alt="Schumi-Vettel Interview舒马赫与瓦特尔接受采访第二部分" border="0" width="110"></a><br><a href="#" target="_blank">Schumi-Vettel Interview舒马赫与瓦特尔接受采访第二部分</a></td>
+		</tr>
+		
+		<tr>
+			<td><a href="#" target="_blank"><img src="5200.jpg" title="Schumi-Vettel Interview舒马赫与瓦特尔接受采访第一部分" alt="Schumi-Vettel Interview舒马赫与瓦特尔接受采访第一部分" border="0" width="110"></a><br><a href="#" target="_blank">Schumi-Vettel Interview舒马赫与瓦特尔接受采访第一部分</a></td>
+			<td><a href="#" target="_blank"><img src="5198.jpg" title="汉密尔顿跟纳斯卡冠军Tony Stewart换车开" alt="汉密尔顿跟纳斯卡冠军Tony Stewart换车开" border="0" width="110"></a><br><a href="#" target="_blank">汉密尔顿跟纳斯卡冠军Tony Stewart换车开</a></td>
+		</tr>
+
+		<tr>
+			<td><a href="#" target="_blank"><img src="5197.jpg" title="2011WRC约旦站杨浩中文解说三天精华集锦" alt="2011WRC约旦站杨浩中文解说三天精华集锦" border="0" width="110"></a><br><a href="#" target="_blank">2011WRC约旦站杨浩中文解说三天精华集锦</a></td>
+			<td><a href="#" target="_blank"><img src="5196.jpg" title="F1中国大奖赛·上BBC720P超清DRS" alt="F1中国大奖赛·上BBC720P超清DRS" border="0" width="110"></a><br><a href="#" target="_blank">F1中国大奖赛·上BBC720P超清DRS</a></td>
+		</tr>
+		
+		<tr>
+			<td><a href="#" target="_blank"><img src="5195.jpg" title="F1中国大奖赛·下BBC720P超清" alt="F1中国大奖赛·下BBC720P超清" border="0" width="110"></a><br><a href="#" target="_blank">F1中国大奖赛·下BBC720P超清</a></td>
+			<td><a href="#" target="_blank"><img src="5194.jpg" title="F1澳大利亚大奖赛·下BBC720P超清" alt="F1澳大利亚大奖赛·下BBC720P超清" border="0" width="110"></a><br><a href="#" target="_blank">F1澳大利亚大奖赛·下BBC720P超清</a></td>
+		</tr>
+		<tr></tr></tbody></table>						
+	<div align="right"><a style=" font-weight:bold; color: green;" href="#" target="_blank">&gt;&gt;查看更多F1视频</a></div>
+	<div class="top1"></div>
+	</div>					 
+										  
+<!--投票-->
+					  
+	<div class="inbox">
+		<div class="mid_title font_white font_b">
+			<a href="#"><span class="padleft_25">投票</a></span>
+		</div>
+		<div class="top1" id="votebox"></div>
+		<div class="top1"></div>
+	</div>
+
+	<script type="text/javascript" src="#"></script></div>
+					
+	</div>
+				
+			
+<!--页面右侧-->
+
+	<div id="siderbar" class="right">
+					
+<!--分站赛-->
+					
+	<div class="puma_con">
+		<a href="#"><img src="453e9e12ae11e3aa6d3cae0eab58d11e.jpg"></a>
+	</div>
+	
+	<div class="puma_con">
+		<div class="right_box_puma">
+			<div class="siderbox_top2">
+				<div class="puma_center">
+					离土耳其大奖赛: 
+					<div id="deadtime"></div>
+	
+				<script type="text/javascript">
+	
+				function showtime() {
+					var deadline= new Date(2022,12,18,23,00,00);
+					var now = new Date()  
+					var diff = -480 - now.getTimezoneOffset()
+					var leave = (deadline.getTime() - now.getTime()) + diff*60000
+					var day = Math.floor(leave / (1000 * 60 * 60 * 24))  
+					var hour = Math.floor(leave / (1000*3600)) - (day * 24)  
+					var min = Math.floor(leave / (1000*60)) - (day * 24 *60) - (hour * 60)  
+					var sec = Math.floor(leave / (1000)) - (day * 24 *60*60) - (hour * 60 * 60) - (min*60)  
+						Temp = day+'天'+hour+'小时'+min+'分'+sec+'秒';
+						document.getElementById('deadtime').innerHTML=Temp;
+						setTimeout("showtime()",1000);
+				}
+				showtime();
+
+				</script>
+	  
+				</div>
+			</div>
+			<div class="img_puma"></div>
+			<iframe src="https://space.bilibili.com/672342685/?spm_id_from=333.999.0.0" width="250px" height="200px" frameborder="0"></iframe>
+		</div>
+
+		<div class="puma_bottom">
+		<a href="#" target="_blank" class="right">PUMA上海站现场播报</a>
+		<form action="">
+			<button onclick="">刷新</button>
+		</form>
+			</div>
+		</div>
+
+<!--赛程-->
+	
+	<div class="inbox right_title font_white font_b"><a href="#">2011 F1日历</a></div> 
+		<div class="right_box">
+		<div class="tab">
+			<a>F1赛程</a>					
+			<a>新车发布</a>
+		</div>
+	
+		<div class="siderbox_top"></div>
+		<div class="siderbox">
+
+	<table id="data3" class="font_orange3 text_left" style="display: table;" width="100%" align="right" border="0" cellpadding="1" cellspacing="0">
+		<tbody>
+			
+		<tr>
+			<td width="25%">03月27日</td>
+			<td width="25%">澳大利亚</td>
+			<td width="50%">阿尔伯特公园</td>
+		</tr>
+			
+		<tr bgcolor="#737373">
+			<td width="25%">04月10日</td>
+			<td width="25%">马来西亚</td>
+			<td width="50%">雪邦国际赛道</td>
+		</tr>
+			
+		<tr>
+			<td width="25%">04月17日</td>
+			<td width="25%">中国</td>
+			<td width="50%"><a href="#" target="_blank">上海国际赛车场</a></td>
+		</tr>
+			
+		<tr bgcolor="#737373">
+			<td width="25%">05月08日</td>
+			<td width="25%">土耳其</td>
+			<td width="50%"><a href="#" target="_blank">伊斯坦布尔公园</a></td>
+		</tr>
+			
+		<tr>
+			<td width="25%">05月22日</td>
+			<td width="25%">西班牙</td>
+			<td width="50%">加泰罗尼亚赛道</td>
+		</tr>
+			
+		<tr bgcolor="#737373">
+			<td width="25%">05月29日</td>
+			<td width="25%">摩纳哥</td>	
+			<td width="50%">蒙特卡洛赛道</td>
+		</tr>
+			
+		<tr>
+			<td width="25%">06月12日</td>
+			<td width="25%">加拿大</td>		
+			<td width="50%">蒙特利尔赛道</td>
+		</tr>
+			
+		<tr bgcolor="#737373">
+			<td width="25%">06月26日</td>
+			<td width="25%">欧洲</td>
+			<td width="50%"><a href="#" target="_blank">瓦伦西亚街区赛道</a></td>
+		</tr>
+			
+		<tr>
+			<td width="25%">07月10日</td>
+			<td width="25%">英国</td>
+			<td width="50%"><a href="#" target="_blank">银石赛道</a></td>
+		</tr>
+			
+		<tr bgcolor="#737373">
+			<td width="25%">07月24日</td>
+			<td width="25%">德国</td>
+			<td width="50%">纽伯格林</td>
+		</tr>
+			
+		<tr>
+			<td width="25%">07月31日</td>
+			<td width="25%">匈牙利</td>
+			<td width="50%">亨格罗林赛道</td>
+		</tr>
+			
+		<tr bgcolor="#737373">
+			<td width="25%">08月28日</td>
+			<td width="25%">比利时</td>
+			<td width="50%">斯帕-法荣科尚</td>
+		</tr>
+			
+		<tr>
+			<td width="25%">09月11日</td>
+			<td width="25%">意大利</td>
+			<td width="50%"><a href="#" target="_blank">蒙扎赛道</a></td>
+		</tr>
+			
+		<tr bgcolor="#737373">
+			<td width="25%">09月25日</td>
+			<td width="25%">新加坡</td>
+			<td width="50%"><a href="#" target="_blank">新加坡</a></td>
+		</tr>
+			
+		<tr>
+			<td width="25%">10月09日</td>
+			<td width="25%">日本</td>	
+			<td width="50%">铃鹿</td>
+		</tr>
+			
+		<tr bgcolor="#737373">
+			<td width="25%">10月16日</td>
+			<td width="25%">韩国</td>
+			<td width="50%">韩国</td>
+		</tr>
+			
+		<tr>
+			<td width="25%">10月30日</td>
+			<td width="25%">印度</td>
+			<td width="50%">德里</td>
+		</tr>
+			
+		<tr bgcolor="#737373">
+			<td width="25%">11月13日</td>
+			<td width="25%">阿布扎比</td>
+			<td width="50%">亚斯港赛道</td>
+		</tr>
+			
+		<tr>
+			<td width="25%">11月27日</td>
+			<td width="25%">巴西</td>
+			<td width="50%"><a href="#" target="_blank">英特拉格斯赛道</a></td>
+		</tr>
+			
+		<tr bgcolor="#737373">
+			<td width="25%">11月27日</td>
+			<td width="25%">巴西</td>
+			<td width="50%"><a href="#" target="_blank">英特拉格斯赛道</a></td>
+		</tr>
+	</tbody></table>					
+										
+<!--新车发布-->
+
+	<table id="data5" cellspacing="0" cellpadding="1" width="100%" border="0" class="font_orange4 text_left" style="display: none;">
+		<tbody>
+			<tr>
+				<td width="30%">红牛</td>
+				<td width="22%">RB7</td>
+				<td width="18%">2.1</td>
+				<td width="30%"><a href="#" target="_blank">技术分析</a></td>
+				<td width="30%"><a href="#" target="_blank"><img src="62_256650_d34029f69a2d688.gif" border="0"></a></td>
+			</tr>
+
+			<tr bgcolor="#737373">
+				<td>迈凯轮</td>
+				<td>MP4-26</td>
+				<td>2.4</td>
+				<td><a href="#" target="_blank">技术分析</a></td>
+				<td><a href="#" target="_blank"><img src="62_256650_d34029f69a2d688.gif" border="0"></a></td>
+			</tr>
+
+			<tr>
+				<td>法拉利</td>
+				<td>F11</td>
+				<td>1.28</td>
+				<td><a href="#" target="_blank">技术分析</a></td>
+				<td><a href="#" target="_blank"><img src="62_256650_d34029f69a2d688.gif" border="0"></a></td>
+			</tr>
+							  
+			<tr bgcolor="#737373">
+				<td>梅塞德斯</td>
+				<td>W02</td>
+				<td>2.1</td>
+				<td></td>
+				<td><a href="#" target="_blank"><img src="62_256650_d34029f69a2d688.gif" border="0"></a></td>
+			</tr>
+
+			<tr>
+				<td>莲花-雷诺</td>
+				<td>R31</td>
+				<td>1.31</td>
+				<td><a href="#" target="_blank">技术分析</a></td>
+				<td><a href="#" target="_blank"><img src="62_256650_d34029f69a2d688.gif" border="0"></a></td>
+			</tr>
+
+			<tr bgcolor="#737373">
+				<td>威廉姆斯</td>
+				<td>FW33</td>
+				<td>2.1</td>
+				<td></td>
+				<td><a href="#" target="_blank"><img src="62_256650_d34029f69a2d688.gif" border="0"></a></td>
+			</tr>
+			
+			<tr>
+				<td>印度力量</td>
+				<td>VJM004</td>
+				<td>2.8</td>
+				<td><a href="#" target="_blank">技术分析</a></td>
+				<td><a href="#" target="_blank"><img src="62_256650_d34029f69a2d688.gif" border="0"></a></td>
+			</tr>
+			
+			<tr bgcolor="#737373">
+				<td>索伯</td>
+				<td>C30</td>
+				<td>1.31</td>
+				<td><a href="#" target="_blank">技术分析</a></td>
+				<td><a href="#" target="_blank"><img src="62_256650_d34029f69a2d688.gif" border="0"></a></td>
+			</tr>
+			
+			<tr>
+				<td>小红牛</td>
+				<td>STR005</td>
+				<td>2.1</td>
+				<td></td>
+				<td><a href="#" target="_blank"><img src="62_256650_d34029f69a2d688.gif" border="0"></a></td>
+			</tr>
+			
+			<tr bgcolor="#737373">
+				<td>莲花</td>
+				<td>T128</td>
+				<td>1.31</td>
+				<td><a href="#" target="_blank">技术分析</a></td>
+				<td><a href="#" target="_blank"><img src="62_256650_d34029f69a2d688.gif" border="0"></a></td>
+			</tr>
+			
+			<tr>
+				<td>维珍</td>
+				<td>VR-02</td>
+				<td>2.7</td>
+				<td><a href="#" target="_blank">技术分析</a></td>
+				<td><a href="#" target="_blank"><img src="62_256650_d34029f69a2d688.gif" border="0"></a></td>
+			</tr>
+			
+			<tr bgcolor="#737373">
+				<td>HRT</td>
+				<td>F111</td>
+				<td>3.3</td>
+				<td></td>
+				<td><a href="#" target="_blank"><img src="62_256650_d34029f69a2d688.gif" border="0"></a></td>
+			</tr>	
+		</tbody>
+	</table>
+	
+	<div class="clean"></div>
+	<script type="text/JavaScript">dataChange('6'); dataChange('3');</script>
+	</div>
+		<div class="siderbox_bottom">
+		</div>
+	</div>			
+	
+<!--积分榜-->
+
+	<div class="inbox right_title font_white font_b">F1积分榜</div>
+	<div class="right_box">
+	<div class="tab">
+		<a>车手积分</a>
+		<a>车队积分</a>
+	</div>
+	<div class="siderbox_top"></div>
+	<div class="siderbox">
+
+<!--车手-->
+
+	<div id="data1" style="height:180px;overflow:hidden;">
+		<table cellspacing="0" cellpadding="0" width="100%" border="0" class="font_white text_left">
+			<tbody><tr bgcolor="#aaaaaa" class="font_b font_gray"><td width="20%">名次</td><td width="55%">车手</td><td width="25%">积分</td></tr><tr bgcolor="#737373">
+				<td>1</td><td>塞巴斯蒂安·维特尔</td><td>68</td></tr><tr>
+				<td>2</td><td>刘易斯·汉密尔顿</td><td>47</td></tr><tr bgcolor="#737373">
+				<td>3</td><td>简森·巴顿</td><td>38</td></tr><tr>
+				<td>4</td><td>马克·韦伯</td><td>37</td></tr><tr bgcolor="#737373">
+				<td>5</td><td>费尔南多·阿隆索</td><td>26</td></tr><tr>
+				<td>6</td><td>菲利佩·马萨</td><td>24</td></tr><tr bgcolor="#737373">
+				<td>7</td><td>维塔利·佩德罗夫</td><td>17</td></tr><tr><td>7</td><td>Sergio Pérez</td><td>6</td></tr><tr bgcolor="#737373">
+			</tbody>		
+		</table>
+	</div>
+	<div style="text-align:right;padding-left:2px;">
+		<a><img src="down.jpg"></a>&nbsp;
+		<a><img src="up.jpg"></a>
+	</div>
+
+<!--车队-->
+
+	<table id="data2" cellspacing="1" cellpadding="0" border="0" width="100%" class="text_left font_white" style="display:none">
+		<tbody><tr bgcolor="#aaaaaa" class="font_b font_gray"><td width="20%">名次</td><td width="55%">车队</td><td width="25%">积分</td></tr><tr bgcolor="#737373">
+			<td>1</td><td>红牛—雷诺</td><td>105</td></tr><tr>
+			<td>2</td><td>迈凯伦—梅塞德斯</td><td>85</td></tr><tr bgcolor="#737373">
+			<td>3</td><td>法拉利</td><td>50</td></tr><tr>
+			<td>4</td><td>雷诺</td><td>32</td></tr><tr bgcolor="#737373">
+			<td>5</td><td>梅塞德斯</td><td>16</td></tr><tr>
+			<td>6</td><td>Sauber/Ferrari</td><td>7</td></tr><tr bgcolor="#737373">
+			<td>7</td><td>小红牛</td><td>4</td></tr><tr>
+			<td>8</td><td>印度力量—梅塞德斯</td><td>4</td></tr><tr bgcolor="#737373">
+			<td>9</td><td>Lotus/Renault</td><td>0</td></tr><tr>
+			<td>10</td><td>Virgin/Cosworth</td><td>0</td></tr><tr bgcolor="#737373">
+			<td>11</td><td>威廉姆斯-考斯沃斯</td><td>0</td></tr><tr>
+			<td>12</td><td>HRT-考斯沃斯</td><td>0</td></tr><tr>
+		</tbody>
+	</table>
+
+	</div>
+		<div class="siderbox_bottom"></div>
+	</div>
+
+	</div>
+
+		<div class="clean"></div>
+	</div>
+		   
+<!--link-->
+		   
+	<table width="100%" border="0" cellspacing="1" cellpadding="0">
+		<tbody><tr>
+			<td width="710" align="center">
+				<table width="98%" border="0" cellpadding="5" cellspacing="1" bgcolor="#999999">
+					<tbody><tr align="center" valign="middle" bgcolor="#373737" height="70px"><td width="118px">
+						<a href="#" target="_blank" alt="" title=""><img src="gp_1.jpg" width="100" height="66" border="0"></a></td><td width="118px">
+						<a href="#" target="_blank" alt="" title=""><img src="gp_3.jpg" width="100" height="66" border="0"></a></td><td width="118px">
+						<a href="#" target="_blank" alt="" title=""><img src="gp_5.jpg" width="100" height="66" border="0"></a></td><td width="118px">
+						<a href="#" target="_blank" alt="" title=""><img src="gp_7.jpg" width="100" height="66" border="0"></a></td><td width="118px">
+						<a href="#" target="_blank" alt="" title=""><img src="gp_9.jpg" width="100" height="66" border="0"></a></td><td width="118px">
+						<a href="#" target="_blank" alt="" title=""><img src="gp_11.jpg" width="100" height="66" border="0"></a></td></tr><tr align="center" valign="middle" bgcolor="#373737" height="70px"><td width="118px">
+						<a href="#" target="_blank" alt="" title=""><img src="gp_1(1).jpg" width="100" height="66" border="0"></a></td><td width="118px">
+						<a href="#" target="_blank" alt="" title=""><img src="gp_3(1).jpg" width="100" height="66" border="0"></a></td><td width="118px">
+						<a href="#" target="_blank" alt="" title=""><img src="gp_5(1).jpg" width="100" height="66" border="0"></a></td><td width="118px">
+						<a href="#" target="_blank" alt="" title=""><img src="gp_7(1).jpg" width="100" height="66" border="0"></a></td><td width="118px">
+						<a href="#" target="_blank" alt="" title=""><img src="gp_9(1).jpg" width="100" height="66" border="0"></a></td><td width="118px">
+						<a href="#" target="_blank" alt="" title=""><img src="gp_11(1).jpg" width="100" height="66" border="0"></a></td></tr><tr align="center" valign="middle" bgcolor="#373737" height="70px"><td width="118px">
+						<a href="#" target="_blank" alt="" title=""><img src="gp_1(2).jpg" width="100" height="66" border="0"></a></td><td width="118px">
+						<a href="#" target="_blank" alt="" title=""><img src="gp_3(2).jpg" width="100" height="66" border="0"></a></td><td width="118px">
+						<a href="#" target="_blank" alt="" title=""><img src="gp_5(2).jpg" width="100" height="66" border="0"></a></td><td width="118px">
+						<a href="#" target="_blank" alt="" title=""><img src="gp_7(2).jpg" width="100" height="66" border="0"></a></td><td width="118px">
+						<a href="#" target="_blank" alt="" title=""><img src="gp_9(2).jpg" width="100" height="66" border="0"></a></td><td width="118px">
+						<a href="#" target="_blank" alt="" title=""><img src="gp_11(2).jpg" width="100" height="66" border="0"></a></td></tr>
+					</tbody>
+				</table>
+			</td>
+			
+		<td valign="top">
+			<div class="inbox right_title font_white font_b"><a href="">最新赛车图集</a></div> 
+			<div class="right_box">
+				<div class="siderbox_top"></div>
+				<div class="siderbox" valign="top">
+					<div style="height:22px;color:#CCCCCC">· [<a href="#" target="_blank" style="color:#CCCCCC">F1中国站</a>]  <a href="#" target="_blank" title="" style="color:#CCCCCC">上海周日图集-7</a></div>
+					<div style="height:22px;color:#CCCCCC">· [<a href="#" target="_blank" style="color:#CCCCCC">F1中国站</a>]  <a href="#" target="_blank" title="" style="color:#CCCCCC">上海周日图集-6</a></div>
+					<div style="height:22px;color:#CCCCCC">· [<a href="#" target="_blank" style="color:#CCCCCC">F1中国站</a>]  <a href="#" target="_blank" title="" style="color:#CCCCCC">上海周日图集-5</a></div>
+					<div style="height:22px;color:#CCCCCC">· [<a href="#" target="_blank" style="color:#CCCCCC">F1中国站</a>]  <a href="#" target="_blank" title="" style="color:#CCCCCC">上海周日图集-4</a></div>
+					<div style="height:22px;color:#CCCCCC">· [<a href="#" target="_blank" style="color:#CCCCCC">F1中国站</a>]  <a href="#" target="_blank" title="" style="color:#CCCCCC">上海周日图集-3</a></div>
+					<div style="height:22px;color:#CCCCCC">· [<a href="#" target="_blank" style="color:#CCCCCC">F1中国站</a>]  <a href="#" target="_blank" title="" style="color:#CCCCCC">上海周日图集-2</a></div>
+					<div style="height:22px;color:#CCCCCC">· [<a href="#" target="_blank" style="color:#CCCCCC">F1中国站</a>]  <a href="#" target="_blank" title="" style="color:#CCCCCC">上海周日图集</a></div>
+					<div style="height:22px;color:#CCCCCC">· [<a href="#" target="_blank" style="color:#CCCCCC">F1中国站</a>]  <a href="#" target="_blank" title="" style="color:#CCCCCC">上海周六图集-2</a></div>
+				</div>
+				<div class="siderbox_bottom"></div>
+			</div>
+		</td>
+		</tr>
+		</tbody></table>
+		<div id="link">
+			友情链接： 
+			<a title="F1官方网站" href="#" target="_blank">F1官网</a> 
+			<a title="autosport.com" href="#" target="_blank">赛车运动</a>
+			<a title="上赛场" href="#" target="_blank">上赛场官网</a> 
+			<a title="4rennsport" href="#" target="_blank">赛车爱好者</a>
+			<a title="WRC之家" href="#" target="_blank">WRC之家</a> 
+			<a title="名车志中文网" href="#" target="_blank">名车志中文网</a>
+			<a title="M.Schumacher之家" href="#" target="_blank">M.Schumacher之家</a>
+			<a title="M.Schumacher之家" href="#" target="_blank">我友体育</a>
+		</div>
+	
+	<div class="clean"></div>
+
+<!--Footer-->
+
+	<div class="footer">
+		<div id="footer">
+			<div style="margin-top:19px;color: #666666;">Copyright © 2004 - 2011 
+				<a href="#" style="color: #666666;">HelloF1</a>&nbsp; All rights reserved.&nbsp;&nbsp; 
+				<a href="#" target="_blank" style="color: #666666;" rel="nofollow">网站声明</a>&nbsp;
+				<a href="#" target="_blank" style="color: #666666;">网站地图</a>&nbsp;
+				<a href="#" target="_blank" style="color: #666666;" rel="nofollow">联系我们</a>&nbsp;&nbsp;&nbsp;沪ICP备08105065号
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+</div>
 </body>
 </html>
+
